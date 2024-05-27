@@ -1,8 +1,9 @@
-'use client'
+"use client"
 
 import { SessionProvider } from "next-auth/react"
+import React from "react"
 
-const  ContextProvider =  ({
+const  SessionWrapper =  ({
   children,
 }: {
   children: React.ReactNode
@@ -12,4 +13,4 @@ const  ContextProvider =  ({
   </SessionProvider>
 }
 
-export default ContextProvider
+export default SessionWrapper

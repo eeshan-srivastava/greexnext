@@ -283,7 +283,7 @@ const Crypto = (props: Props) => {
         <div style={{ ...styles.container1, ...style }}>
             <div style={styles.container2}>
                 <div style={styles.container4}>
-                <Line data={chartData} options={options} plugins={[customPlugin, colorPlugin, innerChartAreaColorPlugin]} />;
+                <Line data={chartData} options={options} plugins={[customPlugin, colorPlugin, innerChartAreaColorPlugin]} />
                 </div>
             </div>
         </div>
