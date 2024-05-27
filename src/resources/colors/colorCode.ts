@@ -1,0 +1,15 @@
+export default {
+    white: '#ffffff',
+    black: '#000000',
+    transparent: 'transparent',
+    B1E368: '#B1E368',
+    blue: '#00AAFF',
+    primary_light: '#DDD5FF',
+    primary: '#7D6FDB',
+    primary_dark: '#251D7A',
+    text_primary: '#6D797A',
+    green: '#B1E368',
+    green2: '#34b37e',
+    blue2: '#285fe7',
+    orange: '#FF6668',
+};
