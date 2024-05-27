@@ -1,3 +1,4 @@
+"use client"
 import {getWindowDimensions, normGeneral} from './DimenUtils';
 
 const screenWidth = () => {

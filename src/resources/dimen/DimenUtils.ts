@@ -1,20 +1,23 @@
+"use client"
 export interface WindowDimensions {
     width: number;
     height: number;
 }
 
+const windowx = window
+
 let windowDimensions: WindowDimensions = {
-    width: window.innerWidth,
-    height: window.innerHeight,
+    width: windowx.innerWidth,
+    height: windowx.innerHeight,
 };
 
 const handleResize = () => {
     windowDimensions = {
-        width: window.innerWidth,
-        height: window.innerHeight,
+        width: windowx?.innerWidth,
+        height: windowx?.innerHeight,
     };
     //AppActions.updateWindowDimensions(windowDimensions);
-    window.location.reload();
+    windowx.location.reload();
 };
 
 //window.addEventListener('resize', handleResize);

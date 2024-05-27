@@ -1,3 +1,4 @@
+"use client"
 import {normText} from './DimenUtils';
 
 export default {
