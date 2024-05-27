@@ -23,7 +23,7 @@ const generateInitialData = (numPoints: number) => {
     for (let i = 0; i < numPoints; i++) {
         const time = startTime + (i * interval);
         const change = (Math.random() * 40 - 20); 
-        lastValue = Math.max(80, Math.min(150, lastValue + change)); 
+        lastValue = Math.max(80, Math.min(200, lastValue + change)); 
 
         data.push({
             x: time,
